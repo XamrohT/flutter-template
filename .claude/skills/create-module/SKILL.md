@@ -31,4 +31,4 @@ Fluxo: View -> Store -> UseCase -> Repository.
 
 ## Se o comando não existir
 
-Se `custom_flutter` não estiver no PATH, avise o usuário em vez de escrever o módulo manualmente. Alternativa: `dart run E:/Development/custom_flutter/bin/custom_flutter.dart add module <nome>`.
+Se `custom_flutter` não estiver no PATH, avise o usuário em vez de escrever o módulo manualmente. Instalação: `dart pub global activate --source git https://github.com/XamrohT/custom_flutter.git`.

@@ -11,7 +11,15 @@ Counter app padrão do Flutter, só que já estruturado com a nossa arquitetura.
 - **Tema** Material 3 a partir de uma cor semente (`core/design/theme/palette.dart`), claro e escuro.
 - **i18n** pt_BR/en via intl_utils.
 
-## Começando
+## Uso recomendado
+Este repositório é a fonte da verdade usada pela CLI [`custom_flutter`](https://github.com/XamrohT/custom_flutter):
+```bash
+custom_flutter create meu_app --org br.com.empresa
+custom_flutter add module pedidos
+```
+Detalhes para agentes/LLMs em [AGENTS.md](AGENTS.md).
+
+## Começando (manual, sem a CLI)
 ```bash
 python tool/rename_project.py meu_app "Meu App" br.com.empresa
 flutter pub get
