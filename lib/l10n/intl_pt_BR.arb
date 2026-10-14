@@ -1,0 +1,12 @@
+{
+  "@@locale": "pt_BR",
+  "appTitle": "Template Flutter",
+  "counterPushedLabel": "Você apertou o botão esta quantidade de vezes:",
+  "incrementTooltip": "Incrementar",
+  "badRequestExceptionMessage": "Requisição inválida, verifique os dados e tente novamente.",
+  "unauthorizedExceptionMessage": "Não autorizado.",
+  "notFoundExceptionMessage": "Não encontrado.",
+  "noConnectionExceptionMessage": "Sem conexão.",
+  "timeOutExceptionMessage": "Tempo de requisição expirado.",
+  "defaultExceptionMessage": "Serviço indisponível no momento, tente novamente mais tarde."
+}

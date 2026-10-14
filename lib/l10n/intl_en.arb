@@ -1,0 +1,12 @@
+{
+  "@@locale": "en",
+  "appTitle": "Flutter Template",
+  "counterPushedLabel": "You have pushed the button this many times:",
+  "incrementTooltip": "Increment",
+  "badRequestExceptionMessage": "Bad request, check the data and try again.",
+  "unauthorizedExceptionMessage": "Unauthorized.",
+  "notFoundExceptionMessage": "Not found.",
+  "noConnectionExceptionMessage": "No connection.",
+  "timeOutExceptionMessage": "Request timed out.",
+  "defaultExceptionMessage": "Service unavailable, try again later."
+}
