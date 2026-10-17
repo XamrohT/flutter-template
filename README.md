@@ -12,10 +12,10 @@ Counter app padrão do Flutter, só que já estruturado com a nossa arquitetura.
 - **i18n** pt_BR/en via intl_utils.
 
 ## Uso recomendado
-Este repositório é a fonte da verdade usada pela CLI [`custom_flutter`](https://github.com/XamrohT/custom_flutter):
+Este repositório é a fonte da verdade usada pela CLI [`custom_cli_to_create_templates`](https://github.com/XamrohT/custom_cli_to_create_templates):
 ```bash
-custom_flutter create meu_app --org br.com.empresa
-custom_flutter add module pedidos
+custom_cli_to_create_templates create meu_app --org br.com.empresa
+custom_cli_to_create_templates add module pedidos
 ```
 Detalhes para agentes/LLMs em [AGENTS.md](AGENTS.md).
 

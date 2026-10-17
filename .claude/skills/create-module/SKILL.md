@@ -1,6 +1,6 @@
 ---
 name: create-module
-description: Use when creating a new feature/module in this Flutter project. Runs the custom_flutter CLI to scaffold the module and register its route, instead of writing the boilerplate by hand.
+description: Use when creating a new feature/module in this Flutter project. Runs the custom_cli_to_create_templates CLI to scaffold the module and register its route, instead of writing the boilerplate by hand.
 ---
 
 # Criar módulo
@@ -8,10 +8,10 @@ description: Use when creating a new feature/module in this Flutter project. Run
 Para qualquer feature nova, **não escreva o boilerplate à mão**. Rode na raiz do projeto:
 
 ```bash
-custom_flutter add module <nome_snake_case>
+custom_cli_to_create_templates add module <nome_snake_case>
 ```
 
-Exemplo: `custom_flutter add module pedidos`.
+Exemplo: `custom_cli_to_create_templates add module pedidos`.
 
 O comando:
 - cria `lib/modules/<nome>/` com `<nome>_module.dart`, `repositories/`, `use_cases/`, `stores/` (MobX) e `views/`;
@@ -31,4 +31,4 @@ Fluxo: View -> Store -> UseCase -> Repository.
 
 ## Se o comando não existir
 
-Se `custom_flutter` não estiver no PATH, avise o usuário em vez de escrever o módulo manualmente. Instalação: `dart pub global activate --source git https://github.com/XamrohT/custom_flutter.git`.
+Se `custom_cli_to_create_templates` não estiver no PATH, avise o usuário em vez de escrever o módulo manualmente. Instalação: `dart pub global activate --source git https://github.com/XamrohT/custom_cli_to_create_templates.git`.
